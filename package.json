@@ -1,0 +1,22 @@
+{
+  "name": "appium-cicd",
+  "version": "1.0.0",
+  "description": "Appium Android CI/CD - Play Store search",
+  "main": "test_sample.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test_sample.js"
+  },
+  "dependencies": {
+    "webdriverio": "^9.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "appium": "^2.11.0",
+    "appium-uiautomator2-driver": "^3.7.0",
+    "wait-on": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
